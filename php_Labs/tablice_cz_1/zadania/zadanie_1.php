@@ -10,7 +10,7 @@ $tab = array(
 
 foreach($tab as $t) {
 	foreach($t as $k) {
-		foreach($k as $val) {
+		foreach($k as $val) {	
 			echo $val.'<br/>';
 		}		
 	}		
