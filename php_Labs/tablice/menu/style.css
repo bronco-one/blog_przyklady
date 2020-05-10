@@ -1,0 +1,92 @@
+/* wiekszość stylow pobrana ze strony 
+https://webkod.pl/kurs-css/lekcje/dzial-4/rozwijane-poziome-menu-css*/
+.menu {
+ width: 804px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #edece1;
+ height: 500px;
+ background-image:  url('reklama.png') ;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+ol {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:18px;
+  height:2em;
+  line-height:2em;
+  text-align:center;
+}
+ol > li {
+  float:left;
+  background-color: #919f56;
+  width:150px;
+}
+ol a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  padding:0 5px;
+}
+ol > li > a:hover {
+  color:#09C;
+}
+
+ol > li:hover {
+  background-color:#EEE;
+}
+
+ol > li > ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+ol > li {
+  float:left;
+  background-color:#919f56;
+  width:150px;
+  margin-left:1px;
+}
+
+ol > li:first-child {
+  margin-left:0;
+}
+
+ol > li > ul > li > a {
+  border-top:1px solid #FFF;
+}
+ol {
+  background-color:#FFF;
+}
+
+ol > li > ul > li {
+  background-color:#EEE;
+}
+
+ol > li > ul > li:hover {
+  background-color:#DDD;
+}
+
+ol > li > ul > li:hover a {
+  color:#09C;
+}
+ol > li > ul {
+  display:none;
+}
+
+ol > li:hover > ul {
+  display:block;
+}
+ol > li {
+  float:left;
+  background-color:#919f56;
+  width:200px;
+  margin-left:1px;
+  height:2em;
+}
+
+ol > li:hover > a {
+  color:#09C;
+}
