@@ -1,6 +1,6 @@
 <?php 
 
-$tab =['Nabiał'=>[
+$tab =['nabiał'=>[
 	'masło'=>['łaciate','solone','szwedzkie'],
 	'mleko'=>['wiejskie', 'łaciate','końskie'],
 	'ser'=>['biały','tłusty','półtłusty']
@@ -8,7 +8,7 @@ $tab =['Nabiał'=>[
 ];
 
 foreach($tab as $nab =>$value) {
-       print $nab.'<br/><br/>';
+       print strtoupper($nab).'<br/>';
 	foreach($value as $nazwa => $gat ) {
 		print '<b>'.$nazwa.'</b><br/>';
 		foreach($gat as $k1 =>$k) {
